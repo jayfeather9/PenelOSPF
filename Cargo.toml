@@ -1,0 +1,13 @@
+[package]
+name = "PenelOSPF"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nom-derive = "0.10"
+tokio = { version = "1.38.0", features = ["full"] }
+encoding_derive = { path = "./encoding_derive" }
+byteorder = "1.4.3"
+
+[dependencies.pnet]
+version = "0.35.0"
